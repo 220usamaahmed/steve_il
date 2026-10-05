@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steve_il"
+version = "0.1.0"
+description = "Steve (MPO-700 + UR5e + Robotiq 2F-85) in Isaac Lab: scripted demos and imitation learning"
+requires-python = ">=3.10"
+# Isaac Sim / Isaac Lab come from the conda env (env_isaaclab); deliberately not pinned here.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["source"]
