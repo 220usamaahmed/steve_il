@@ -7,5 +7,7 @@ from .actions import (  # noqa: F401
     BaseFrameDifferentialIKActionCfg,
     HolonomicBaseVelocityAction,
     HolonomicBaseVelocityActionCfg,
+    MimicGripperPositionAction,
+    MimicGripperPositionActionCfg,
 )
 from .observations import base_pose_xy_yaw, base_velocity_body, tcp_pose_in_base  # noqa: F401

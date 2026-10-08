@@ -10,3 +10,8 @@ USD_PATH = ASSETS_DIR / "usd" / "free" / "steve.usd"
 # holonomic variant: virtual x/y/yaw joints under base_link, world-fixed anchor (see tools/make_holonomic_urdf.py)
 HOLONOMIC_URDF_PATH = ASSETS_DIR / "urdf" / "steve_holonomic.urdf"
 HOLONOMIC_USD_PATH = ASSETS_DIR / "usd" / "holonomic" / "steve_holonomic.usd"
+
+# cuRobo arm planning model: URDF derived by tools/make_arm_planning_urdf.py, robot config by
+# tools/build_curobo_robot.py (paths inside the YAML are relative to ASSETS_DIR)
+ARM_PLANNING_URDF_PATH = ASSETS_DIR / "urdf" / "steve_arm_planning.urdf"
+CUROBO_ROBOT_PATH = ASSETS_DIR / "curobo" / "steve_arm.yml"
